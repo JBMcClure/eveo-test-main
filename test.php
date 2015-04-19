@@ -76,6 +76,7 @@
 									[	'pattern'	=>	'shout_tags', 				'replace'	=>	'shout_tags'				],									
 									[	'pattern'	=>	'shout_toptens', 			'replace'	=>	'shout_toptens'				],									
 									[	'pattern'	=>	'member_shout_views', 				'replace'	=>	'member_shout_views'		],
+
 									[	'pattern'	=>	'shouts', 					'replace'	=>	'shouts'					],										
 									[	'pattern'	=>	'specialties', 				'replace'	=>	'specialties'				],									
 									[	'pattern'	=>	'supportform_item_labels', 	'replace'	=>	'supportform_item_labels'	],									
@@ -87,7 +88,10 @@
 								];
 			
 			$this->setPregMatchArrays();			
+			$this->i_like	= 'it!';
 			$this->getFileList();
 			$this->replaceContents();
 		}
+
+			$this->stuff = 'is better';
 
