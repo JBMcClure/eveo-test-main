@@ -1,0 +1,3 @@
+[submodule "eveo-test-submodule"]
+	path = eveo-test-submodule
+	url = git@github.com:JBMcClure/eveo-test-submodule.git
