@@ -1,5 +1,6 @@
 		public function __construct() 
 		{
+			$this->blah				=	'yada';
 			$this->file_search			=	'';
 			$this->total_replacements	=	0;
 			$this->path					=	__DIR__;	
@@ -8,6 +9,7 @@
 			$this->quiet_mode			=	false;
 			$this->any					=	false;
 			$this->ignore_case			=	false;
+			$this->blah_blah			=	'yada, yada';
 			
 			$this->getOptions();
 			
